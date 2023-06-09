@@ -23207,7 +23207,7 @@ Make sure the URL is correct.`,
     const userConfig = await getUserConfig();
     if (userConfig.trimLongText && text3.length > 14400) {
       text3 = text3.slice(0, 14400);
-      text3 += "\n\n[Text has been trimmed to 14,500 characters. You can disable this on WebChatGPT's options page.]";
+      text3 += "\n\n[Text has been trimmed to 14,500 characters. You can disable this on WebNectar's options page.]";
     }
     return { title: parsed.title, body: text3, url };
   }
